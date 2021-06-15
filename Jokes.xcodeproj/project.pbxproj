@@ -11,6 +11,8 @@
 		23A634E126790C8500821C7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A634E026790C8500821C7E /* ContentView.swift */; };
 		23A634E326790C8500821C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A634E226790C8500821C7E /* Assets.xcassets */; };
 		23A634E626790C8500821C7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A634E526790C8500821C7E /* Preview Assets.xcassets */; };
+		23A634F026790E9900821C7E /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A634EF26790E9900821C7E /* Api.swift */; };
+		23A634F42679160A00821C7E /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A634F32679160A00821C7E /* Jokes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		23A634E226790C8500821C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23A634E526790C8500821C7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23A634E726790C8500821C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A634EF26790E9900821C7E /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		23A634F32679160A00821C7E /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				23A634DE26790C8500821C7E /* JokesApp.swift */,
 				23A634E026790C8500821C7E /* ContentView.swift */,
+				23A634EF26790E9900821C7E /* Api.swift */,
+				23A634F32679160A00821C7E /* Jokes.swift */,
 				23A634E226790C8500821C7E /* Assets.xcassets */,
 				23A634E726790C8500821C7E /* Info.plist */,
 				23A634E426790C8500821C7E /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A634E126790C8500821C7E /* ContentView.swift in Sources */,
+				23A634F42679160A00821C7E /* Jokes.swift in Sources */,
+				23A634F026790E9900821C7E /* Api.swift in Sources */,
 				23A634DF26790C8500821C7E /* JokesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
